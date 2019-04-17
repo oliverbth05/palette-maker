@@ -1,0 +1,68 @@
+.color-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 80vh;
+}
+
+.color-panel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.color-panel__color {
+    height: 100%;
+    flex-grow: 1;
+    transition: all .3s;
+}
+
+.color-panel__details p{
+    text-align: center;
+}
+
+
+.palette__colors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+}
+
+.palette__name {
+    text-align: center;
+    padding: 1rem;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__container {
+    background: white;
+    border-radius: 5px;
+    min-width: 500px;
+    padding: 1rem;
+}
+
+.slider {
+    width: 100%;
+    display: block;
+}
+
+.color__preview {
+    height: 50px;
+    width: 100%;
+}
