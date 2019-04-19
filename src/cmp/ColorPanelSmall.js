@@ -1,21 +1,8 @@
-// @flow
 import React from 'react';
 
-type Props = {
-    hex: string,
-    rgb: string
-}
-
-const ColorPanel = (props: Props) => {
-    
+const ColorPanelSmall = (props) => {
     const { hex }  = props;
-    
-    return (
-        <div className = 'color-panel'>
-            <div className = 'color-panel__color' style = {{ backgroundColor: hex }}>
-            </div>
-        </div>
-    )
+    return <div className = 'color-panel__color' style = {{ backgroundColor: hex }}></div>
 }
 
-export default ColorPanel;
+export default ColorPanelSmall;

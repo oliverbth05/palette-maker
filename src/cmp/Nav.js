@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 class Nav extends React.Component {
     render() {
         return (
-            <nav className = 'nav shadow bg-grey-1'>
+            <nav className = 'nav bg-white b-b-1 b-grey-2'>
                 <div className = 'nav__container'>
                     <h3 className = 'color-primary font-light'>Palettes</h3>
                     <div className = 'nav__links'>

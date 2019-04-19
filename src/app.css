@@ -1,9 +1,15 @@
+i {
+    color: white;
+    font-size: 1.4rem;
+}
+
 .color-grid {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 80vh;
+    padding: 1.5rem;
+    height: 85vh;
 }
 
 .color-panel {
@@ -11,16 +17,45 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 }
 
+
 .color-panel__color {
+    height: 50px;
+    width: 100%;
+}
+
+.color-panel__colors {
     height: 100%;
     flex-grow: 1;
     transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.color-panel__shade {
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-panel__shade p {
+    color: white;
+    text-transform: uppercase;
+}
+
 
 .color-panel__details p{
     text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 
@@ -55,7 +90,7 @@
     border-radius: 5px;
     min-width: 500px;
     padding: 1rem;
-}
+} 
 
 .slider {
     width: 100%;

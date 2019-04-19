@@ -10,7 +10,6 @@ class MyPalettes extends React.Component {
 
     renderPalettes() {
         return this.props.myPalettes.map(palette => {
-            console.log(palette)
             return <Palette key = {palette.id} {...palette}/>
         })
     }
@@ -27,8 +26,6 @@ class MyPalettes extends React.Component {
                 </div>
             )
         }
-        
-        console.log(this.props.myPalettes)
         
         return (
             <div className = 'container-res-1000 p-a-3'>

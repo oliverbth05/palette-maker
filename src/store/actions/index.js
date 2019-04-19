@@ -56,3 +56,24 @@ export const unselectColor = () => {
         type: 'UNSELECT_COLOR'
     }
 }
+
+export const changeColor = data => {
+    return {
+        type: 'CHANGE_COLOR',
+        payload: data
+    }
+}
+
+export const darkenColor = index => {
+    return {
+        type: 'DARKEN_COLOR',
+        payload: index
+    }
+}
+
+export const lightenColor = index => {
+    return {
+        type: 'LIGHTEN_COLOR',
+        payload: index
+    }
+}
