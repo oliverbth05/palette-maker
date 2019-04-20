@@ -20,7 +20,6 @@ i {
     margin: 1rem;
 }
 
-
 .color-panel__color {
     height: 50px;
     width: 100%;
@@ -51,13 +50,11 @@ i {
     text-transform: uppercase;
 }
 
-
 .color-panel__details p{
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
 }
-
 
 .palette__colors {
     display: flex;
@@ -79,7 +76,6 @@ i {
     background: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,4 +96,50 @@ i {
 .color__preview {
     height: 50px;
     width: 100%;
+}
+
+
+.palette-horizontal {
+    margin-bottom: 1rem;
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.palette-horizontal__color {
+    height: 100%;
+    width: 80px;
+}
+
+.palette-card {
+    flex-grow: 1;
+    margin: 1rem;
+}
+
+.palette-card__colors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.palette-card__color {
+    flex-grow: 1;
+    min-width: 80px;
+    min-height: 80px;
+}
+
+.palette-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.scss-view {
+    border: 1px solid rgb(220, 220, 220);
 }

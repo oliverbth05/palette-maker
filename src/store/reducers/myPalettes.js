@@ -10,7 +10,7 @@ const reducer = (state = initialState, action) => {
             return state.concat(action.payload)
             
         default :
-            return state
+            return state 
     }
 }
 
